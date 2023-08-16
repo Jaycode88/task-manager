@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-if os.pat.exists("env.py"):
+if os.path.exists("env.py"):
     import env
 
 
